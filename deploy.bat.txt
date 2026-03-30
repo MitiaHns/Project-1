@@ -1,0 +1,10 @@
+@REM mvn compile
+@REM Test connexion PostgreSQL
+@REM mvn clean compile && java -cp target/classes com.example.Main
+
+@REM mvn exec:java -Dexec.mainClass="com.example.Main"
+
+@REM Lancer l'application Spring Boot
+mvn clean compile
+mvn spring-boot:run
+
